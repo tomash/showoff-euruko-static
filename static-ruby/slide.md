@@ -1,9 +1,3 @@
-!SLIDE title-slide center
-
-## not sexy, not obligatory
-![](wheels.jpg)
-
-
 !SLIDE bullets
 
 # static as in
@@ -21,6 +15,12 @@
 * dirty code
 * code review
 * proof-reading
+
+
+!SLIDE title-slide center
+
+## not sexy, not obligatory
+![](wheels.jpg)
 
 
 !SLIDE
