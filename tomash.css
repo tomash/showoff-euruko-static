@@ -1,3 +1,14 @@
+body, #preso, .slide
+{
+  /*background: black;
+  color: white;*/
+}
+
+body, #preso, .slide
+{
+  font-family: "Liberation Serif";
+}
+
 .left-img img
 {
   float: left;
