@@ -1,12 +1,13 @@
-body, #preso, .slide
-{
-  /*background: black;
-  color: white;*/
+@font-face {
+  font-family: 'IM Fell DW Pica';
+  font-style: normal;
+  font-weight: normal;
+  src: local('IM Fell DW Pica'), url('http://themes.googleusercontent.com/font?kit=W81bfaWiUicLSPbJhW-ATrnZKA4kQkVOJ75DZxM4aA8') format('truetype');
 }
 
 body, #preso, .slide
 {
-  font-family: "Liberation Serif";
+  font-family: "IM Fell DW Pica";
 }
 
 .left-img img
