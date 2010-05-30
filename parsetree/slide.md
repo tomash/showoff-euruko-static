@@ -12,7 +12,7 @@
 ## from Ruby
 
     @@@ Ruby
-    class Something
+    class SomeClass
       def do_stuff(with_what)
         i = 10
       end
@@ -21,11 +21,11 @@
 
 !SLIDE code
 
-## to s-expression
+## to s-expression, command line
 
-    $ parse_tree_show something.rb
+    $ parse_tree_show some_class.rb
     s(:class,
-     :Something,
+     :SomeClass,
      nil,
      s(:scope,
       s(:defn,
@@ -34,8 +34,47 @@
        s(:scope, s(:block, s(:lasgn, :i, s(:lit, 10)))))))
 
 
+!SLIDE
+
+# how about from inside Ruby?
+
+
+!SLIDE code
+
+    @@@ Ruby
+    class OtherClass
+      def first_method
+      end
+    
+      def second_method
+        first_method
+      end
+    
+      def third_method
+        first_method
+        second_method
+      end
+    end
+
+
+!SLIDE code
+
+    @@@ Ruby
+    sexp_array = ParseTree.translate(Something)
+    pp sexp_array
+      [:class,
+       :OtherClass,
+       [:const, :Object],
+       [:defn, :first_method, [:scope, [:block, [:args], [:nil]]]],
+       [:defn, :second_method, [:scope, [:block, [:args], [:vcall, :first_method]]]],
+       [:defn,
+        :third_method,
+        [:scope,
+         [:block, [:args], [:vcall, :first_method], [:vcall, :second_method]]]]]
+    => nil
+
 
 !SLIDE
 
-# what can ParseTree do?
+# practical applications of ParseTree?
 
