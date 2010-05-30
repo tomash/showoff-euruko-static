@@ -8,9 +8,9 @@
 
 !SLIDE code
     @@@ Ruby
-    require 'other_class2'
+    require 'other_class'
     
-    sexp_array = ParseTree.translate(OtherClass2)
+    sexp_array = ParseTree.translate(OtherClass)
     found = Array.new
     found << traverse(sexp_array, :defn)
     
