@@ -12,5 +12,4 @@
 
 * full-time rubyist since 2007
 * soft-spot for low-level languages
-* digest, fsck, code, play
 * tomash.wrug.eu, @_tomash

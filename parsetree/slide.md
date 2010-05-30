@@ -60,17 +60,23 @@
 !SLIDE code
 
     @@@ Ruby
-    sexp_array = ParseTree.translate(Something)
+    sexp_array = ParseTree.translate(OtherClass)
     pp sexp_array
       [:class,
        :OtherClass,
        [:const, :Object],
-       [:defn, :first_method, [:scope, [:block, [:args], [:nil]]]],
-       [:defn, :second_method, [:scope, [:block, [:args], [:vcall, :first_method]]]],
+       [:defn, :first_method, 
+         [:scope, 
+           [:block, [:args], [:nil]]]],
+       [:defn, :second_method, 
+         [:scope, 
+           [:block, [:args], [:vcall, :first_method]]]],
        [:defn,
         :third_method,
         [:scope,
-         [:block, [:args], [:vcall, :first_method], [:vcall, :second_method]]]]]
+         [:block, [:args], 
+           [:vcall, :first_method], 
+           [:vcall, :second_method]]]]]
     => nil
 
 

@@ -12,7 +12,7 @@
 
 ![](elevator.jpg)
 
-* dirty code
+* finding dirty places
 * code review
 * proof-reading
 
