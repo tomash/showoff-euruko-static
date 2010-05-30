@@ -1,4 +1,4 @@
-class OtherClass2
+class OtherClass
   def first_method(arg)
     puts(arg)
   end

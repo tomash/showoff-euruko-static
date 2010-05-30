@@ -23,4 +23,5 @@
     found << traverse(sexp_array, :call)
     
     found.each{|cl| call_counter[cl[1]] += 1 if(call_counter[cl[1]])}
-    pp call_counter.inspect
+    
+    => {:first_method=>2, :second_method=>1, :third_method=>0}

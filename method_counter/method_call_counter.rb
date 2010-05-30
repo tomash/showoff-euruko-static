@@ -2,7 +2,7 @@ require 'rubygems'
 require 'parse_tree'
 require 'pp'
 
-require 'other_class2'
+require 'other_class'
 
 $methods = []
 def traverse(entity, detect=nil)
