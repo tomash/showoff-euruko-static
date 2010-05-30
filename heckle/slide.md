@@ -9,6 +9,7 @@
 
 !SLIDE center
 
-## when someone says "my test suite is great"
+## when someone says "my test suite is great",
+## heckle it!
 
-![](haters.jpg)
+

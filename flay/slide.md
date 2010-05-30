@@ -8,7 +8,6 @@
 !SLIDE code
 
 # flaying Jekyll
-## (sorry, Mojombo)
 
     
     $ flay jekyll/lib/

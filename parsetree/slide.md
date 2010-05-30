@@ -4,8 +4,12 @@
 
 ## ruby code into s-expressions
 
+### (lisp geeks (might(explain (more))))
+
 
 !SLIDE code
+
+## from Ruby
 
     @@@ Ruby
     class Something
@@ -16,6 +20,8 @@
 
 
 !SLIDE code
+
+## to s-expression
 
     $ parse_tree_show something.rb
     s(:class,
@@ -32,3 +38,4 @@
 !SLIDE
 
 # what can ParseTree do?
+

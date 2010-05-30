@@ -10,6 +10,11 @@ body, #preso, .slide
   font-family: "IM Fell DW Pica";
 }
 
+.code h1, .code h2, .code h3 
+{
+  font-family: "IM Fell DW Pica";
+}
+
 .left-img img
 {
   float: left;

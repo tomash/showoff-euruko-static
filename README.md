@@ -15,4 +15,4 @@ In order to see it, you need to install and run ShowOff.
     $ cd showoff-euruko-static
     $ showoff serve
 
-And then the slides can be viewed by pointing browser to http://localhost:9090
+Then the slides can be viewed by pointing browser to http://localhost:9090

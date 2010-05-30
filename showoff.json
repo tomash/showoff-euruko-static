@@ -1,6 +1,6 @@
 [
   {"section":"intro"},
-  {"section":"static-ruby"},
+  {"section":"static"},
   {"section":"parsetree"},
   {"section":"flog"},
   {"section":"flay"},
