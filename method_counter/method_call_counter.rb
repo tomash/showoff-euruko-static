@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'parse_tree'
-require 'pp'
 
 require 'other_class'
 
@@ -15,7 +14,7 @@ def traverse(entity, detect=nil)
   end
 end
 
-sexp_array = ParseTree.translate(OtherClass2)
+sexp_array = ParseTree.translate(OtherClass)
 traverse(sexp_array, :defn)
 methods = $methods.clone
 
@@ -29,4 +28,4 @@ traverse(sexp_array, :call)
 calls = $methods.clone
 
 calls.each{|c| call_counter[c[1]] += 1 if(call_counter[c[1]])}
-pp call_counter.inspect
+puts call_counter.inspect
