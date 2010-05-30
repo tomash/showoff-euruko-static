@@ -1,7 +1,9 @@
 [
   {"section":"intro"},
   {"section":"static"},
+  {"section":"elise"},
   {"section":"parsetree"},
+  {"section":"method_counter"},
   {"section":"flog"},
   {"section":"flay"},
   {"section":"heckle"},

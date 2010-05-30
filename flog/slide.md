@@ -47,3 +47,15 @@
         end
       end
     end
+
+
+
+!SLIDE
+
+# simple (naive) metrics are easy to cheat
+
+
+!SLIDE
+
+# gaming Flog
+## split stuff into methods

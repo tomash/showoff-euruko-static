@@ -6,6 +6,13 @@
 ![](updater.jpg)
 
 
+!SLIDE 
+
+# unfunny ideas?
+## create a Ruby static code analysis suite
+## comparable to Java stack
+
+
 !SLIDE title-slide
 
 # links no-one cares about anyway

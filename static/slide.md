@@ -28,8 +28,3 @@
 ## not sexy, not obligatory
 ![](wheels.jpg)
 
-
-!SLIDE
-
-# static code analysis?
-## use ParseTree
